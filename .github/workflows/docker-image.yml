@@ -30,4 +30,4 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: "MTA1711/contact-manager:$GITHUB_SHA"
+        tags: MTA1711/contact-manager:latest
