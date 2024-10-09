@@ -1,4 +1,5 @@
 FROM node:14-slim AS builder
+LABEL maintainer="Aurelie Kamgang"
 RUN apt-get update
 WORKDIR /usr/app
 COPY package*.json ./
